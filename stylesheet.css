@@ -4,6 +4,37 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+}
 
+#dog1{
+    background-color: transparent;
+    top: 550px;
+    left: 50px;
+    width: 50px;
+    height: 100px;
+    background-color: transparent;
+    position: relative;
+
+}
+
+#dog2{
+    background-color: transparent;
+    top: 550px;
+    left: 1000px;
+    width: 50px;
+    height: 100px;
+    background-color: transparent;
+    position: relative;
+
+}
+
+#group{
+    background-color: transparent;
+    top: 550px;
+    left: 500px;
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    position: relative;
 
 }
