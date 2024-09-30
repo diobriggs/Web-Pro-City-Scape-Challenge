@@ -38,3 +38,45 @@ body{
     position: relative;
 
 }
+
+.fly {
+    position: absolute;
+    animation: flyAcross 5s linear infinite;
+}
+
+@keyframes flyAcross {
+    0% {
+        left: -100px;
+        top: 20%;
+        transform: translateY(-10%);
+    }
+    100% {
+        left: 100vw;
+        top: 20%;
+    }
+}
+
+#plane{
+    width: 150px;
+    height: 150px;
+}
+
+#flowers1{
+    background-color: transparent;
+    top: 550px;
+    left: 900px;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    position: relative;
+}
+
+#flowers2{
+    background-color: transparent;
+    top: 550px;
+    left: -200px;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    position: relative;
+}
